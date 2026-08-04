@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=ZCode Auto Clicker
+Comment=Wayland-native autoclicker for Linux
+Exec=/path/to/AutoClicker/run.sh
+Icon=autoclicker
+Terminal=false
+Categories=Utility;
+Keywords=autoclicker;clicker;mouse;automation;

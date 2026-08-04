@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# autoclickerctl — send commands to a running ZCode Auto Clicker (IPC backend).
+set -euo pipefail
+cd "$(dirname "$(readlink -f "$0")")"
+if [ ! -x .venv/bin/python ]; then
+  echo "autoclicker is not set up yet. Run ./run.sh once." >&2
+  exit 1
+fi
+exec env -u PYTHONHOME -u PYTHONPATH .venv/bin/python -m autoclicker.ctl "$@"
