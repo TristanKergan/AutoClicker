@@ -1,4 +1,4 @@
-# ZCode Auto Clicker (Wayland)
+# Auto Clicker (Wayland)
 
 Полноценная десктопная программа автокликера для Linux под Wayland —
 аналог OP Auto Clicker для Windows, но без X11 и без внешних утилит
